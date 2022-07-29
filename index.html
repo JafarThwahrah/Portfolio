@@ -1,94 +1,260 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
- <link rel="stylesheet" href="./style.css">
-</head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jafar Thwahrah</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
   <body>
-<header>
-      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-      <div class="container-fluid ms-5">
-        <a class="navbar-brand" href="#">Jafar Thwahrah</a>
+    <!-- Nav-Bar -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+        <div class="container-fluid ms-5">
+          <a class="navbar-brand" href="#">Jafar Thwahrah</a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"> <span class="navbar-toggler-icon"></span></button>
-        
-        <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto me-5">
-            <li class="nav-item me-3">
-              <a class="nav-link active" aria-current="page" href="#">About Me</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-              
-            </li>
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto me-5">
               <li class="nav-item me-3">
-                <a class="nav-link active" aria-current="page" href="#">My Previous Experiance</a>
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About Me</a
+                >
+              </li>
+              <li class="nav-item me-3">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#myProjects"
+                  >My Projects</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Contact Me</a>
+                <a class="nav-link active" aria-current="page" href="#contactMe"
+                  >Contact Me</a
+                >
               </li>
-          </ul>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav> 
-  </header>
+      </nav>
+    </header>
 
     <!--Introduction-->
-<main>
-   <section class="bg-dark text-light p-5 text-center">
-   <div class="container1">
-<div class="d-flex">
 
-    <div>
+    <main>
+      <section class="bg-dark bg-gradient text-light p-5 text-center section-1">
+        <div class="container1">
+          <div class="d-flex">
+            <div class="intro">
+              <h1 class="jafar">
+                Hi!,Im <span> Jafar Thwahrah.</span> <br /><br />
+              </h1>
+              <h3 class="fullstack">
+                Full stack web devoloper <br />
+                based in Amman. <br /><br />Im a continuous learner and opened
+                to learn <br />
+                different new programming languages and technologies.
+                <br /><br />
+              </h3>
+              <button type="button" class="btn btn-primary learnMore">
+                More About Me<svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-chevron-double-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </button>
 
-        <h1 class="jafar">Hi!,Im <span> Jafar Thwahrah.</span> <br><br></h1>
-        <h3 class="fullstack">Full stack web devoloper <br> based in Amman. <br><br>Im a continuous learner and opened to learn different new programming languages and technologies. <br><br> </h3>
-        <button type="button" class="btn btn-primary learnMore">More About Me<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
-          <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
-        </svg></button>
-      
+              <!-- Pop up button Start -->
 
-    </div>
-    <img class="image1 w-25" src="./photos/pngwing.com.png" alt="">
-</div>
+              <div
+                class="modal fade bd-example-modal-lg"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="myLargeModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">...</div>
+                </div>
+              </div>
 
-   </div>
-  </section>
+              <!-- Pop up button End -->
+            </div>
+            <img class="image1 w-50" src="./photos/pngwing.com.png" alt="" />
+          </div>
+        </div>
+      </section>
 
-<div class="qualification">
+      <!-- qualification -->
 
+      <div class="qualification"></div>
 
-</div>
+      <!-- My recent Projects -->
 
+      <section
+        class="bg-dark bg-gradient text-light p-5 text-center section-1 de-flex flex-md-wrap flex-sm-wrap"
+        id="myProjects"
+      >
+        <h4 class="h4middle">Find below my most recent projects:</h4>
+        <div class="card-group">
+          <div class="card">
+            <a href="https://jafarthwahrah.github.io/Bootstrap-Task/">
+              <img src="/photos/BST2.PNG" class="card-img-top" alt="..."
+            /></a>
+            <div class="card-body">
+              <h5 class="card-title">News Website</h5>
+              <p class="card-text">
+                This website was build Bootstrap,HTML and CSS <br />
+                click To see the website.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./photos/Foodwebsite.PNG"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Food Website</h5>
+              <p class="card-text">
+                This Food Website was created using HTML and CSS, to search for
+                nearest resturants in your location.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">React</h5>
+              <p class="card-text">
+                This Website was build using React And Laravel, Its a book
+                website for a famous library in Jordan.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  <div class="containerMiddle">
-    <h4 class="h4middle">Find below my most recent projects:</h4>
-<div class="cardsContainer">
-  <div class="card card1"> <img src="./photos/PHP.png" alt=""></div>
-  <div class="card card2"> <img src="./photos/React.png" alt=""></div>
-  <div class="card card3"> <img src="./photos/HTML.png" alt=""></div>
-</div>
-</div>
-<h2 class="h2contactMe">Contact Me:</h2>
-<br>
-<div class="contactMe">
-  <a href="mailto:jaffardawahreh2@gmail.com"><button type="button" class="ContactButton btn btn-outline-danger"><i class="material-icons" style="font-size:36px">mail</i>Gmail</button></a>
-   <a href="https://www.linkedin.com/in/jafar-thwahrah-7811131a2/"><button type="button" class="ContactButton btn btn-outline-primary">Linked<i class="fa fa-linkedin" style="font-size:48px"></i></button></a>
-   <a href="https://github.com/JafarThwahrah"><button type="button" class="ContactButton btn btn-outline-dark"><i class="fa fa-github" style="font-size:36px"></i>GitHub</button></a>
-</div>
-  
-</main>
-  <div class="footer">
+      <!-- contact Me section -->
 
-  </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+      <div class="contactMe">
+        <h2 class="h2contactMe">Contact Me:</h2>
+        <br />
+
+        <div class="contactMeCards flex-sm-wrap flex-md-wrap" id="contactMe">
+          <a class="m-4" href="mailto:jaffardawahreh2@gmail.com"
+            ><button type="button" class="ContactButton btn btn-outline-danger">
+              <i class="material-icons" style="font-size: 36px">mail</i>Gmail
+            </button></a
+          >
+          <a
+            class="m-4"
+            href="https://www.linkedin.com/in/jafar-thwahrah-7811131a2/"
+            ><button
+              type="button"
+              class="ContactButton btn btn-outline-primary"
+            >
+              Linked<i
+                class="fa fa-linkedin"
+                style="font-size: 48px"
+              ></i></button
+          ></a>
+          <a class="m-4" href="https://github.com/JafarThwahrah"
+            ><button type="button" class="ContactButton btn btn-outline-dark">
+              <i class="fa fa-github" style="font-size: 36px"></i>GitHub
+            </button></a
+          >
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid ms-5">
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav mb-2">
+              <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item me-3">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#myProjects"
+                  >My Projects</a
+                >
+              </li>
+              <li class="nav-item avatar">
+                <a
+                  class="nav-link active avatar"
+                  aria-current="page"
+                  href="./photos/Resume Jafar Mohammad Thwahrah.pdf"
+                  download
+                  >My Resume</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </body>
- 
 </html>
-

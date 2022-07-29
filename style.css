@@ -1,0 +1,102 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body{
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.jafar{
+    text-align: left;
+}
+.fullstack{
+ text-align: left;
+}
+
+span {
+    color: gold;
+}
+
+.image1{
+    margin-right: 100px;
+margin-left: 400px;
+margin-bottom: 50px;
+}
+
+.learnMore{
+margin-right:410px;
+width: 200px;
+}
+.qualification{
+    height: 420px;
+}
+
+.containerMiddle{
+   background-color: blueviolet;
+   padding-top: 50px;
+   height: 425px;
+   border-radius: 10px;
+   
+
+}
+
+.card{
+    width: 320px;
+    height: 500px;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: rgb(191, 103, 187);
+}
+
+.cardsContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.h4middle{
+    margin-bottom: 50px;
+    color: white;
+    margin-left: 40px;
+}
+
+.contactMe{
+  position: relative;
+    
+}
+
+.contactMe{
+    display: flex;
+    justify-content: space-around;
+}
+.h2contactMe{
+    margin-top: 300px;
+    text-align: center;
+}
+
+.ContactButton{
+    width: 300px;
+    font-size: 36px;
+    align-content: center;
+    
+}
+.material-icons{
+    margin-right: 5px;
+}
+.fa-github{
+    margin-right: 5px;
+}
+
+
+.material-icons{
+    position: absolute;
+    margin-top: 11px;
+    margin-left:-38px;
+}
+
+.footer{
+    background-color: aquamarine;
+    height: 50px;
+    margin-top: 100px;
+}
+

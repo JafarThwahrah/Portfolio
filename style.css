@@ -31,7 +31,7 @@ span {
 }
 
 .image1{
-  width: 380px;
+  width: 395px;
   height: 380px;
 }
 
@@ -190,7 +190,7 @@ header a:hover {
 @media (max-width:676px){
 .image1{
     width: 185px;
-    height: 195px;
+    height: 190px;
 }
 }
 

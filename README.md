@@ -24,7 +24,7 @@ https://www.figma.com/file/IyAmZxZI8fAr8XfmaJkTqp/Mockup-Portfolio?node-id=0%3A1
 
 
 
-This is the Portfolio page URL link:
+This is the Portfolio page URL:
 
 https://jafarthwahrah.github.io/Portfolio/
 

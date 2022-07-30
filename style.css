@@ -166,3 +166,74 @@ header a:hover {
         align-items: center;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------- Page 2 (About Me)---------------------------------------- */
+
+
+.myCurrentStatus{
+    width: 650px;
+}
+
+.profilePic{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+.nameAndAddress{
+    display: inline-block;margin-left: 37.5px;
+}
+
+
+.pLanguages{
+    width: 500px;
+}
+
+.positionsAndDes{
+    font-weight: bolder;
+    font-size: larger;
+}

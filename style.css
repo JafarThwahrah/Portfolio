@@ -165,6 +165,26 @@ header a:hover {
         justify-content: center;
         align-items: center;
     }
+    .page2firstContainer{
+        flex-direction: column;
+        align-items: right;
+        
+     
+    }
+
+    .myCurrentStatus,.myCurrentPosH5,.Description,.PLH5{
+        width: 250px;
+    }
+
+    .ProjectsulContainer{
+        flex-direction: column;
+    
+    }
+    .pLanguages{
+        margin-left: -20px;
+    }
+ 
+   
 }
 
 
@@ -228,7 +248,9 @@ header a:hover {
     display: inline-block;margin-left: 37.5px;
 }
 
-
+.myCurrentPosH5{
+    margin-left: -3px;
+}
 .pLanguages{
     width: 500px;
 }
@@ -236,4 +258,35 @@ header a:hover {
 .positionsAndDes{
     font-weight: bolder;
     font-size: larger;
+}
+
+.experiance{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    opacity:65%;
+    border-radius: 12px;
+}
+
+.experiancesContainer p,h5,ul{
+ margin-left: 20px;
+}
+.experiancesContainer{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.ProjectsContainer{
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+.contactMeP2{
+    margin-top: 250px;
+}
+.ProjectsContainer a{
+    text-decoration: none;
+    color: white;
+}
+
+.ProjectsContainer a:hover{
+    background-color: rgb(74, 73, 73);
 }

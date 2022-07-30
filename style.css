@@ -31,7 +31,7 @@ span {
 }
 
 .image1{
-  width: 250px;
+  width: 380px;
   height: 380px;
 }
 
@@ -183,43 +183,16 @@ header a:hover {
     .pLanguages{
         margin-left: -20px;
     }
+   
  
    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width:676px){
+.image1{
+    width: 185px;
+    height: 195px;
+}
+}
 
 
 

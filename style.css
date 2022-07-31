@@ -1,6 +1,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -30,6 +31,7 @@ span {
 }
 
 .image1{
+    /* display: none; */
   width: 395px;
   height: 380px;
 }
@@ -144,6 +146,87 @@ header a:hover {
     border-radius: 8px;
   }
 
+
+
+  /* Typing start here */
+/* 
+  .typing::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: #4FC3F7;
+    animation: cursorBlink 0.8s steps(3) infinite;
+}
+
+@keyframes cursorBlink {
+
+    0%,
+    75% {
+        opacity: 1;
+    }
+
+    76%,
+    100% {
+        opacity: 0;
+    }
+}
+
+.typing {
+    position: relative;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #3333);
+}
+
+.typing h1 {
+    position: relative;
+    color: #4FC3F7;
+    letter-spacing: 5px;
+    font-size: 4rem;
+    overflow: hidden;
+    margin-bottom: 0;
+    animation: type 5s steps(11) infinite;
+}
+
+@keyframes type {
+
+    0%,
+    100% {
+        width: 0px;
+    }
+
+    30%,
+    60% {
+        width: 394.09px;
+    }
+}
+
+@media(max-width: 330px) {
+    .typing h2 {
+        font-size: 3rem;
+        animation: type 5s steps(10) infinite;
+    }
+
+    @keyframes type {
+
+        0%,
+        100% {
+            width: 0px;
+        }
+
+        30%,
+        60% {
+            width: 305px;
+        }
+    }
+}
+ */
+
+/* Typing End here */
+
+
+
 @keyframes fadeIn {
     from{
          opacity: 0;
@@ -214,11 +297,6 @@ header a:hover {
 }
 
 
-
-
-
-
-
 /*---------------------------------------- Page 2 (About Me)---------------------------------------- */
 
 
@@ -265,9 +343,10 @@ header a:hover {
     height: 400px;
     margin-top: 100px;
     margin-bottom: 300px;
+    background-size: cover;
 }
 .contactMeP2{
-    margin-top: 250px;
+    margin-top: 230px;
 }
 .ProjectsContainer a{
     text-decoration: none;

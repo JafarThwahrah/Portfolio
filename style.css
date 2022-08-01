@@ -435,9 +435,13 @@ h1::after{
     transition: .3s;
   }
   
+  .cloudDownload{
+    width: 2rem;
+    height: 2rem;
+    margin-top: -30px;
+  }
   .dnbtn:before {
     font-family: 'ionicons';
-    content: '\F29B';
     font-size: 26px;
     color: #0ff;
     position: absolute;
@@ -459,7 +463,9 @@ h1::after{
     transition: .3s;
     animation: fadein .3s;
   }
-  
+  /* .cloudDownload:hover:after{
+    display:none;
+  } */
   .dnbtn:hover {
     width: 160px;
   }

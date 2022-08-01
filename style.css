@@ -92,7 +92,7 @@ body{
 }
 
 nav{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgb(51, 0, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 3px rgb(51, 0, 255);
 }
 .h4middle{
     margin-bottom: 50px;
@@ -340,7 +340,7 @@ h1::after{
     }
 }
 
-@media (max-width:671px) {
+@media (max-width:675px) {
     .image1{
       width: 5rem;
       height: 5rem;
@@ -353,15 +353,35 @@ h1::after{
     }
 }
 
-@media (max-width:671px) {
+@media (max-width:410px) {
     .image1{
-      display: none;
+        width: 2.5rem;
+        height: 3.5rem;
     }
     .jafar{
-        font-size: 18px;
+        font-size: 16px;
     }
     .fullstack{
-        font-size: 14px
+        font-size: 12px
+    }
+    .learnMore{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:344px) {
+    .image1{
+        width: 1.3rem;
+        height: 1.8rem;
+    }
+    .jafar{
+        font-size: 14px;
+    }
+    .fullstack{
+        font-size: 10px
+    }
+    .learnMore{
+        font-size: 12px;
     }
 }
 

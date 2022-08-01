@@ -14,6 +14,7 @@ html {
 body{
 
     font-family: 'Montserrat', sans-serif;
+    background-color: black;
 }
 
 .jafar{
@@ -106,7 +107,6 @@ nav{
 
 
 .contactMe{
-    background-color:black;
   
     margin-bottom:50px;
     padding: 50px;
@@ -118,7 +118,7 @@ nav{
     position: relative;
 }
 .h2contactMe{
-    /* margin-top: 50px; */
+    margin-top: 100px;
     text-align: center;
     margin-bottom: 50px;
 
@@ -128,9 +128,7 @@ nav{
     width: 300px;
     font-size: 36px;
     align-content: center;
-    color: white;
-    outline-color: white;
-    
+        
 }
 
 .material-icons{
@@ -367,6 +365,12 @@ h1::after{
     .learnMore{
         font-size: 12px;
     }
+    .my-Resume{
+        width:60%;
+        height: 70%;
+      
+    }
+   
 }
 
 @media (max-width:344px) {
@@ -416,11 +420,78 @@ h1::after{
 
 /* -------------------Download button start here-------------------------- */
 
+.dnbtn {
+    border: 2px solid #0ff;
+    border-radius: 50px;
+    position: absolute;
+    color: #0ff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px 0 0 0;
+    width: 50px;
+    height: 25px;
+    text-decoration: none;
+    transition: .3s;
+  }
+  
+  .dnbtn:before {
+    font-family: 'ionicons';
+    content: '\F29B';
+    font-size: 26px;
+    color: #0ff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+  }
+  
+  .dnbtn:hover:before {
+    display: none;
+  }
+  
+  .dnbtn:hover:after {
+    font-family: Prompt;
+    content: 'DOWNLOAD';
+    color: #0ff;
+    font-size: 18px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+    animation: fadein .3s;
+  }
+  
+  .dnbtn:hover {
+    width: 160px;
+  }
+  
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeout {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
 
-.my-Resume{
+.facyButton{
+    position: relative;
+    margin: 50px;
+}
+
+/* .my-Resume{
    color: white;
    border-color: white;
-}
+   margin-left: 23px;
+} */
 
 
 /*------------------- Download button end here--------------------------- */
@@ -448,13 +519,7 @@ h1::after{
     margin-bottom: 300px;
     background-size: cover;
 }
-/* .contactMeP2{
-    background-color:black;
-    outline: auto;
-    margin-top: 100px;
-    margin-bottom:50px;
-    padding: 50px;
-} */
+
 .ProjectsContainer a{
     text-decoration: none;
     color: white;

@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+
 
 html {
     scroll-behavior: smooth;
@@ -24,14 +27,21 @@ header{
 }
 .fullstack{
  text-align: left;
+ opacity: 0;
+ transform:translateY(2rem);
+ animation: fadeInup 2s forwards 4s;
 }
 
 span {
     color: gold;
 }
 
+.section1intro{
+
+    background-color: black;
+}
 .image1{
-    /* display: none; */
+    
   width: 395px;
   height: 380px;
 }
@@ -63,6 +73,7 @@ body{
 	margin: 40px 20px 20px 20px;
 	border-radius: 10px;
 	background-size: cover;
+  
 }
 
 .card {
@@ -80,7 +91,9 @@ body{
 	z-index: 2;
 }
 
-
+nav{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgb(51, 0, 255);
+}
 .h4middle{
     margin-bottom: 50px;
     color: white;
@@ -88,19 +101,24 @@ body{
     margin-top: 20px;
 }
 
-.contactMe{
 
-    margin-top: 100px;
-    margin-bottom:150px;
+
+
+
+.contactMe{
+    background-color:black;
+  
+    margin-bottom:50px;
+    padding: 50px;
 }
 .contactMeCards{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 150px;
+   margin-top: -80px;
     position: relative;
 }
 .h2contactMe{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     text-align: center;
     margin-bottom: 50px;
 
@@ -110,6 +128,8 @@ body{
     width: 300px;
     font-size: 36px;
     align-content: center;
+    color: white;
+    outline-color: white;
     
 }
 
@@ -128,100 +148,117 @@ body{
 }
 
 footer{
-    margin-top: 80px;
+    
+    margin-top: 30px;
     color: white;
+    align-items: center;
+    text-align: center;
     
 }
 
-  
+/* Back To Top Anchor start here */
+
+.to-top{
+    
+    align-items: center;
+    text-align: center;
+	color:white;
+	padding-top:1.8em;
+	display:inline-block;
+	position:relative;
+	border-color:white;
+	text-decoration:none;
+	transition:all .3s ease-out;
+}
+.to-top:before{
+	content:'▲';
+	font-size:.9em;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-.7em;
+	border:solid .13em white;
+	border-radius:10em;
+	width:1.4em;
+	height:1.4em;
+	line-height:1.3em;
+	border-color:inherit;
+	transition:transform .5s ease-in;
+}
+.to-top:hover{
+	color:pink;
+	border-color:pink;
+}
+.to-top:hover:before{
+	transform: rotate(360deg);
+}
+
+  /* Back To Top Anchor End here */
 header a:hover {
     background-color: rgb(96, 167, 221);
    
     border-radius: 8px;
   }
 
-  footer a:hover {
-    background-color: rgb(74, 73, 73);
-   
-    border-radius: 8px;
-  }
 
-
+.unlistBottom{
+    align-items: center;
+}
 
   /* Typing start here */
-/* 
-  .typing::before {
+h1{
+    font-size: 2rem;
+    font-family:"source Code pro";
+    position: relative;
+    width: max-content;
+}
+h1::before,h1::after{
     content: '';
     position: absolute;
     top: 0;
     right: 0;
-    width: 2px;
-    height: 100%;
-    background: #4FC3F7;
-    animation: cursorBlink 0.8s steps(3) infinite;
+    bottom:0;
+    left:0;
 }
 
-@keyframes cursorBlink {
+h1::before{
+    background: black;
+    animation: typewriter 3s steps(23) 1s forwards;
+}
 
-    0%,
-    75% {
+h1::after{
+    width: 0.125em;
+    background-color: rgb(48, 116, 250);
+    animation:
+     typewriter 3s steps(23) 1s forwards,
+      jump 750ms steps(23) infinite ;
+}
+
+
+@keyframes typewriter {
+       to{
+        left: 100%;
+       }
+
+}
+@keyframes jump{
+    to {
+        background: transparent;
+    }
+}
+
+@keyframes fadeInup{
+    to{
         opacity: 1;
+        transform: translateY(0);
     }
 
-    76%,
-    100% {
-        opacity: 0;
-    }
 }
 
-.typing {
-    position: relative;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, #3333);
-}
 
-.typing h1 {
-    position: relative;
-    color: #4FC3F7;
-    letter-spacing: 5px;
-    font-size: 4rem;
-    overflow: hidden;
-    margin-bottom: 0;
-    animation: type 5s steps(11) infinite;
-}
 
-@keyframes type {
 
-    0%,
-    100% {
-        width: 0px;
-    }
 
-    30%,
-    60% {
-        width: 394.09px;
-    }
-}
-
-@media(max-width: 330px) {
-    .typing h2 {
-        font-size: 3rem;
-        animation: type 5s steps(10) infinite;
-    }
-
-    @keyframes type {
-
-        0%,
-        100% {
-            width: 0px;
-        }
-
-        30%,
-        60% {
-            width: 305px;
-        }
-    }
-}
- */
 
 /* Typing End here */
 
@@ -296,6 +333,37 @@ header a:hover {
     }
 }
 
+@media (max-width:890px) {
+    .image1{
+      width: 10rem;
+      height: 10rem;
+    }
+}
+
+@media (max-width:671px) {
+    .image1{
+      width: 5rem;
+      height: 5rem;
+    }
+    .jafar{
+        font-size: 18px;
+    }
+    .fullstack{
+        font-size: 14px
+    }
+}
+
+@media (max-width:671px) {
+    .image1{
+      display: none;
+    }
+    .jafar{
+        font-size: 18px;
+    }
+    .fullstack{
+        font-size: 14px
+    }
+}
 
 /*---------------------------------------- Page 2 (About Me)---------------------------------------- */
 
@@ -325,6 +393,21 @@ header a:hover {
     font-size: larger;
 }
 
+
+/* -------------------Download button start here-------------------------- */
+
+
+.my-Resume{
+   color: white;
+   border-color: white;
+}
+
+
+/*------------------- Download button end here--------------------------- */
+.my-Resume:hover{
+    background-color: white;
+    color: black;
+}
 .experiance{
     background-color: rgb(255, 255, 255);
     color: black;
@@ -345,14 +428,19 @@ header a:hover {
     margin-bottom: 300px;
     background-size: cover;
 }
-.contactMeP2{
-    margin-top: 230px;
-}
+/* .contactMeP2{
+    background-color:black;
+    outline: auto;
+    margin-top: 100px;
+    margin-bottom:50px;
+    padding: 50px;
+} */
 .ProjectsContainer a{
     text-decoration: none;
     color: white;
 }
 
 .ProjectsContainer a:hover{
-    background-color: rgb(74, 73, 73);
+    background-color: rgb(96, 167, 221);
+   
 }

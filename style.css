@@ -41,10 +41,7 @@ span {
     color: gold;
 }
 
-.section1intro{
 
-    background-color: black;
-}
 .image1{
     
   width: 395px;
@@ -75,14 +72,18 @@ body{
 }
 
 .section-1 {
-	width: 100%;
+   padding: 40px;
 	border-radius: 10px;
 	background-size: cover;
   
 }
-
+.myprevious-h5{
+    text-align: center;
+    color: white;
+}
 .card {
-	color:black;
+	color:white;
+    background-color: black;
 	margin: 20px;
     outline: auto;
 	border-radius: 20px;
@@ -97,7 +98,7 @@ body{
 }
 
 nav{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 3px rgb(51, 0, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 16px 5px rgb(51, 0, 255);
 }
 .h4middle{
     margin-bottom: 50px;
@@ -112,8 +113,9 @@ nav{
    display: flex;
    justify-content: center;
    align-items: center;
-   min-height: 100vh;
+   min-height: 90vh;
    flex-wrap: wrap;
+   width: auto;
    
    
 }
@@ -180,7 +182,21 @@ nav{
     background: linear-gradient(235deg,#772aff,#010615,#2196f3);
  }
  
-
+ .heading-secondary {
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: inline-block;
+	background-image: linear-gradient(to right, #7ed56f, #28b485);
+	 background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	margin-bottom: .8em;
+  }
+  .heading-secondary:hover {
+	transform: skewY(3deg) skewX(15deg) scale(1.1);
+	text-shadow: 0.5rem 1rem 2rem #7ed56f;
+  }
 /* Project Card end here */
 
 
@@ -196,7 +212,7 @@ nav{
     position: relative;
 }
 .h2contactMe{
-    margin-top: 100px;
+    
     text-align: center;
     margin-bottom: 50px;
 
@@ -593,22 +609,9 @@ h1::after{
     margin-top: 100px;
     margin-bottom: 100px;
 }
-/* .ProjectsContainer{
-    height: 400px;
-    margin-top: 100px;
-    margin-bottom: 300px;
-    background-size: cover;
-} */
 
-.ProjectsContainer a{
-    text-decoration: none;
-    color: white;
-}
-
-.ProjectsContainer a:hover{
-    background-color: rgb(96, 167, 221);
-   
-}
-.ProjectsP2Container{
-text-align: center;
+.contactmeP2{
+    display: inline-block;
+    text-align: center;
+    margin-left: 10rem;
 }

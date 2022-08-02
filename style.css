@@ -421,12 +421,11 @@ h1::after{
 /* -------------------Download button start here-------------------------- */
 
 .dnbtn {
-    border: 2px solid #0ff;
+    border: 2px solid white;
     border-radius: 50px;
     position: absolute;
     color: #0ff;
-    top: 50%;
-    left: 50%;
+    display: inline;
     transform: translate(-50%, -50%);
     padding: 25px 0 0 0;
     width: 50px;
@@ -441,13 +440,15 @@ h1::after{
     margin-top: -30px;
   }
   .dnbtn:before {
-    font-family: 'ionicons';
-    font-size: 26px;
-    color: #0ff;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    transition: .3s;
-  }
+	font-family: FontAwesome;
+	font-style: normal;
+	content: '\f019';
+	font-size: 26px;
+	color: white;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	transition: 0.3s;
+}
   
   .dnbtn:hover:before {
     display: none;
@@ -455,19 +456,17 @@ h1::after{
   
   .dnbtn:hover:after {
     font-family: Prompt;
-    content: 'DOWNLOAD';
-    color: #0ff;
+    content: 'Download My Resume';
+    color: white;
     font-size: 18px;
     position: absolute;
     transform: translate(-50%, -50%);
     transition: .3s;
     animation: fadein .3s;
   }
-  /* .cloudDownload:hover:after{
-    display:none;
-  } */
+  
   .dnbtn:hover {
-    width: 160px;
+    width: 390px;
   }
   
   @keyframes fadein {
@@ -493,11 +492,7 @@ h1::after{
     margin: 50px;
 }
 
-/* .my-Resume{
-   color: white;
-   border-color: white;
-   margin-left: 23px;
-} */
+
 
 
 /*------------------- Download button end here--------------------------- */
@@ -519,12 +514,12 @@ h1::after{
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.ProjectsContainer{
+/* .ProjectsContainer{
     height: 400px;
     margin-top: 100px;
     margin-bottom: 300px;
     background-size: cover;
-}
+} */
 
 .ProjectsContainer a{
     text-decoration: none;
@@ -534,4 +529,7 @@ h1::after{
 .ProjectsContainer a:hover{
     background-color: rgb(96, 167, 221);
    
+}
+.ProjectsP2Container{
+text-align: right;
 }

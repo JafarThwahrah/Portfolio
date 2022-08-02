@@ -5,7 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
 
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+   padding: 0;
+}
 html {
     scroll-behavior: smooth;
   }
@@ -13,8 +17,8 @@ html {
 
 body{
 
-    font-family: 'Montserrat', sans-serif;
-    background-color: black;
+    font-family: 'poppins', sans-serif;
+    background: #010615; 
 }
 
 .jafar{
@@ -71,7 +75,7 @@ body{
 }
 
 .section-1 {
-	margin: 40px 20px 20px 20px;
+	width: 100%;
 	border-radius: 10px;
 	background-size: cover;
   
@@ -102,8 +106,82 @@ nav{
     margin-top: 20px;
 }
 
+/* Project Card start here */
+
+.previousprojects{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   flex-wrap: wrap;
+   
+   
+}
+
+.boxprojects{
+    position: relative;
+    width:300px;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#010615;
+    margin: 50px;
+}
+.boxprojects:before{
+   
+    content:'';
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    right: -2px;
+    bottom:-2px;
+    background: #fff;
+    z-index: -1;
+    
+}
+.boxprojects:after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    right: -2px;
+    bottom:-2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(40px);
+}
+.boxprojects .glass{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height:100%;
+    display: block;
+    background-color: rgba(255,255,255,.1);
+    pointer-events: none;
+}
+.boxprojects .projectscontent{
+   padding: 20px;
+   color: #fff;
+}
 
 
+
+.first-card::before,.first-card::after{
+   background: linear-gradient(235deg,#89ff00,#010615,#00bcd4);
+}
+
+.second-card::before,.second-card::after{
+    background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+ }
+ 
+ .third-card::before,.third-card::after{
+    background: linear-gradient(235deg,#772aff,#010615,#2196f3);
+ }
+ 
+
+/* Project Card end here */
 
 
 .contactMe{
@@ -490,6 +568,7 @@ h1::after{
 .facyButton{
     position: relative;
     margin: 50px;
+    
 }
 
 
@@ -531,5 +610,5 @@ h1::after{
    
 }
 .ProjectsP2Container{
-text-align: right;
+text-align: center;
 }

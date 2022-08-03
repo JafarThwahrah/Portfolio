@@ -19,8 +19,8 @@ This is The Mockup link:
 https://www.figma.com/file/IyAmZxZI8fAr8XfmaJkTqp/Mockup-Portfolio?node-id=0%3A1
 
 
-![Last Mockup wallah](https://user-images.githubusercontent.com/106815966/182676686-dae17274-f12b-4e82-a3dd-943b6862a795.PNG)
 
+![last mockup wallah wallah](https://user-images.githubusercontent.com/106815966/182676943-83502fa5-b1c3-42da-8774-0c2047aabedb.PNG)
 
 
 

@@ -190,7 +190,7 @@ nav{
 	background-image: linear-gradient(to right, #7ed56f, #28b485);
 	 background-clip: text;
 	-webkit-background-clip: text;
-	color: transparent;
+	color: #28b485;
 	margin-bottom: .8em;
   }
   .heading-secondary:hover {
@@ -385,9 +385,9 @@ h1::after{
       justify-content: center;
     }
 
-    .myCurrentStatus,.myCurrentPosH5,.Description,.PLH5{
+    /* .myCurrentStatus,.myCurrentPosH5,.Description,.PLH5{
         width: 250px;
-    }
+    } */
 
     .ProjectsulContainer{
         flex-direction: column;
@@ -462,6 +462,9 @@ h1::after{
     .learnMore{
         font-size: 12px;
     }
+    .mystatusP{
+        width: 16rem;
+    }
    
 }
 
@@ -475,6 +478,13 @@ h1::after{
     }
     .learnMore{
         font-size: 12px;
+    }
+    .mystatusP{
+        width: 10rem;
+    }
+    .myCurrentStatus{
+        width: auto;
+        text-align: left;
     }
 }
 
@@ -595,7 +605,7 @@ h1::after{
 .experiance{
     background-color: rgb(255, 255, 255);
     color: black;
-    opacity:65%;
+    opacity:70%;
     border-radius: 12px;
 }
 
@@ -607,11 +617,7 @@ h1::after{
     margin-bottom: 100px;
 }
 
-.contactmeP2{
-    display: inline-block;
-    text-align: center;
-    margin-left: 10rem;
-}
+
 .mystatusP{
-    margin: auto;
+    margin: 0;
 }

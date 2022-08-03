@@ -20,7 +20,7 @@ https://www.figma.com/file/IyAmZxZI8fAr8XfmaJkTqp/Mockup-Portfolio?node-id=0%3A1
 
 
 
-![MOCKUPffe](https://user-images.githubusercontent.com/106815966/182617307-4ebc09c9-60cf-4c2a-b57a-28591c235082.PNG)
+![last mockup wallah wallah](https://user-images.githubusercontent.com/106815966/182676943-83502fa5-b1c3-42da-8774-0c2047aabedb.PNG)
 
 
 

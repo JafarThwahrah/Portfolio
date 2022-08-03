@@ -382,6 +382,10 @@ h1::after{
     }
 }
 
+/* ___________________________________ Media Query start here_______________________________________ */
+
+
+
 @media (max-width:576px) {
     .contactMeCards{
         flex-direction: column;
@@ -397,10 +401,6 @@ h1::after{
     .unlistBottom{
       justify-content: center;
     }
-
-    /* .myCurrentStatus,.myCurrentPosH5,.Description,.PLH5{
-        width: 250px;
-    } */
 
     .ProjectsulContainer{
         flex-direction: column;
@@ -496,10 +496,13 @@ h1::after{
         width: 10rem;
     }
     .myCurrentStatus{
-        width: auto;
+        
         text-align: left;
     }
 }
+
+/* ___________________________________ Media Query End here_______________________________________ */
+
 
 /*---------------------------------------- Page 2 (About Me)---------------------------------------- */
 

@@ -482,7 +482,11 @@ h1::after{
 
 
 .myCurrentStatus{
-    width: 650px;
+    width: 18rem;
+    text-align: left;
+}
+.pLanguages {
+    margin-top: 12rem;
 }
 
 .profilePic{
@@ -497,9 +501,7 @@ h1::after{
 .myCurrentPosH5{
     margin-left: -3px;
 }
-.pLanguages{
-    width: 500px;
-}
+
 
 .positionsAndDes{
     font-weight: bolder;
@@ -609,4 +611,7 @@ h1::after{
     display: inline-block;
     text-align: center;
     margin-left: 10rem;
+}
+.mystatusP{
+    margin: auto;
 }

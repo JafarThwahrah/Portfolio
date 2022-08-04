@@ -8,7 +8,7 @@ https://www.figma.com/file/riTElueGGRTWCPVWBREEHw/Wireframe-Portfolio?node-id=0%
 
 
 
-![WIREFRAAAAAAAAAAAm](https://user-images.githubusercontent.com/106815966/182622015-ad384458-da60-4355-a5c0-bc482a746905.PNG)
+![WIREFRAME LAST ONEEEEEEEE](https://user-images.githubusercontent.com/106815966/182772444-c0fb30c7-326e-4f5d-ba09-688d2c2c1da2.PNG)
 
 
 
@@ -19,8 +19,8 @@ This is The Mockup link:
 https://www.figma.com/file/IyAmZxZI8fAr8XfmaJkTqp/Mockup-Portfolio?node-id=0%3A1
 
 
+![mockup Laaaaaast](https://user-images.githubusercontent.com/106815966/182770714-ac343476-b60b-4487-ae63-926197f8631a.PNG)
 
-![last mockup wallah wallah](https://user-images.githubusercontent.com/106815966/182676943-83502fa5-b1c3-42da-8774-0c2047aabedb.PNG)
 
 
 

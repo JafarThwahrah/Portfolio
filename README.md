@@ -8,7 +8,7 @@ https://www.figma.com/file/riTElueGGRTWCPVWBREEHw/Wireframe-Portfolio?node-id=0%
 
 
 
-![WIREFRAAAAAAAAAAAm](https://user-images.githubusercontent.com/106815966/182622015-ad384458-da60-4355-a5c0-bc482a746905.PNG)
+![WIREFRAME LAST ONEEEEEEEE](https://user-images.githubusercontent.com/106815966/182772444-c0fb30c7-326e-4f5d-ba09-688d2c2c1da2.PNG)
 
 
 

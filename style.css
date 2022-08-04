@@ -19,6 +19,8 @@ body{
 
     font-family: 'poppins', sans-serif;
     background: #010615; 
+    animation: fadeIn 1s ease-in-out;
+
 }
 
 .jafar{
@@ -57,9 +59,6 @@ span {
 width: 200px;
 }
 
-body{
-    animation: fadeIn 1s ease-in-out;
-}
 
 
 
@@ -107,7 +106,7 @@ nav{
 
 
 :root{
-    --clr-neon:rgb(29, 0, 216);
+    --clr-neon:#28b485;
 }
 * , ::before,::after{
     box-sizing: border-box;

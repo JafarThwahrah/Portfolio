@@ -80,7 +80,7 @@ width: 200px;
     text-align: center;
     color: white;
 }
-.card {
+.cardRecent {
 	color:white;
     background-color: black;
 	margin: 20px;
@@ -91,7 +91,7 @@ width: 200px;
 	outline-offset: -2px;
  	transition: all 0.5s ease-in-out;
 }
-.card:hover {
+.cardRecent:hover {
 	transform: scale(1.2);
 	z-index: 2;
 }
@@ -709,6 +709,14 @@ h1::after{
 
 
 /*------------------- Download button end here--------------------------- */
+
+
+
+/* Experiance Collapse button start here */
+
+
+/* Experiance Collapse button End here */
+
 .my-Resume:hover{
     background-color: white;
     color: black;

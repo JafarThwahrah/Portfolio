@@ -18,7 +18,7 @@ html {
 body{
 
     font-family: 'poppins', sans-serif;
-    background: #010615; 
+    background: black; 
     animation: fadeIn 1s ease-in-out;
 
 }
@@ -47,7 +47,8 @@ span {
 .image1{
     
   width: 395px;
-  height: 380px;
+  height: max-content;
+  opacity: 60%;
 }
 
 .intro{

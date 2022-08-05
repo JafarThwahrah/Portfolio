@@ -30,7 +30,7 @@ body{
 header{
     position:sticky;
     top: 0;
-    z-index: 5;
+    z-index: 10;
 }
 .fullstack{
  text-align: left;
@@ -94,11 +94,12 @@ width: 200px;
 }
 .cardRecent:hover {
 	transform: scale(1.2);
-	z-index: 2;
+	z-index: 5;
 }
 
 nav{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 5px rgb(51, 0, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 5px rgb(51, 0, 255) ;
+    z-index: 20;
 }
 
 
@@ -179,7 +180,9 @@ opacity: 1;
 
 /* More About Me button End here */
 
-
+.card-img-top{
+    z-index: 2;
+}
 
 
 
@@ -741,6 +744,7 @@ h1::after{
 .experiancesContainer{
     margin-top: 100px;
     margin-bottom: 100px;
+    z-index: 5;
 }
 
 

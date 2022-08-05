@@ -18,7 +18,7 @@ html {
 body{
 
     font-family: 'poppins', sans-serif;
-    background: black; 
+    background: #010615; 
     animation: fadeIn 1s ease-in-out;
 
 }
@@ -781,7 +781,7 @@ h1::after{
     transform-origin: -10vw;
   }
   .firefly::before {
-    background: black;
+    background: #010615;
     opacity: 0.4;
     animation: drift ease alternate infinite;
   }

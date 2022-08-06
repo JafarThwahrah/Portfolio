@@ -296,7 +296,7 @@ opacity: 1;
 .previousprojects a{
   text-decoration: none;
 }
-/* Project Card end here */
+/*                 Project Card end here                   */
 
 .h5previousproject{
     text-align: center;
@@ -417,7 +417,7 @@ header a:hover {
     align-items: center;
 }
 
-  /* Typing start here */
+  /* Typing start here and fadeinup */
 h1{
     font-size: 2rem;
     font-family:"source Code pro";
@@ -472,9 +472,9 @@ h1::after{
 
 
 
-/* Typing End here */
+/* Typing and fadeinup End here */
 
-
+/* fadein start here */
 
 @keyframes fadeIn {
     from{
@@ -486,6 +486,9 @@ h1::after{
          transform: translateY(0);
     }
 }
+
+/*                          fadein end here                              */
+
 
 /* ___________________________________ Media Query start here_______________________________________ */
 

@@ -633,7 +633,16 @@ margin-left: -20%;  }
   font-size: 18px
 }
 .learnMore{
-font-size: 25px;}
+font-size: 25px;
+}
+
+.contactMeCards {
+  width: 19rem;
+  margin-left: 3.1rem;
+}
+.heading-secondary{
+  font-size: 1.4rem;
+}
 }
 @media (max-width:410px) {
   

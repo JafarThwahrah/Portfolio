@@ -98,12 +98,22 @@ width: 200px;
 }
 
 nav{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 5px rgb(51, 0, 255) ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 5px #28b485 ;
     z-index: 20;
+    background-color: #28b485;
 }
 
 
+.learnMore{
+  opacity: 0;
+    transform:translateY(2rem);
+  animation: fadeInup 2s forwards 4s;
+  
+}
 
+.my-previous-project{
+  text-align: center;
+}
 /* More About Me button start here */
 
 
@@ -128,9 +138,8 @@ nav{
      0 0 0.5em 0 var(--clr-neon);
      position: relative;
      text-align: left;
-    opacity: 0;
-    transform:translateY(2rem);
-    animation: fadeInup 2s forwards 4s;
+    
+   
      
 
 }
@@ -272,10 +281,10 @@ opacity: 1;
  }
  
  .heading-secondary {
-	font-size: 3em;
+	font-size: 2.5em;
 	text-transform: uppercase;
-	font-weight: 700;
-	
+	font-weight: 600;
+	display: inline-block;
 	background-image: linear-gradient(to right, #7ed56f, #28b485);
 	 background-clip: text;
 	-webkit-background-clip: text;
@@ -299,15 +308,12 @@ opacity: 1;
 /*                 Project Card end here                   */
 
 .h5previousproject{
-    text-align: center;
     margin-top: 6rem;
+    display: inline-block;
 }
-.contactMe{
-  
-    margin-bottom:50px;
-    padding: 50px;
-}
+
 .contactMeCards{
+  align-items: center;
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -319,12 +325,6 @@ opacity: 1;
 
 }
 
-.ContactButton{
-    width: 300px;
-    font-size: 36px;
-    align-content: center;
-        
-}
 
 .material-icons{
     margin-right: 5px;
@@ -333,6 +333,12 @@ opacity: 1;
     margin-right: 5px;
 }
 
+.get-in-touch{
+  margin: 15px;
+}
+.getintouchsection{
+  text-align: center;
+}
 .Gmail-Button{
     --clr-neon:rgb(216, 0, 0);
  width: 300px;
@@ -522,6 +528,10 @@ h1::after{
     .positionStarted{
         font-size:small;
     }
+    .contactMeCards {
+      width: fit-content;
+    }
+  
    }
 
 
@@ -538,6 +548,19 @@ h1::after{
       width: 85px;
       height: 85px;
     }
+    .Gmail-Button{
+      width: 250px;
+      font: 21px;
+    }
+    .LinkedIn-Button{
+      width: 250px;
+      font: 21px;
+  }
+  
+  .Github-Button{
+    width: 250px;
+    font: 21px;
+  }
 }
 
 
@@ -565,6 +588,13 @@ h1::after{
     .fullstack{
         font-size: 16px
     }
+    .previousprojects{
+      margin: 20px;
+      padding:20px;
+    }
+    .contactMeCards{
+      width: fit-content;
+    }
 }
 @media (max-width:500px) {
   
@@ -575,17 +605,27 @@ h1::after{
 @media (max-width:410px) {
   
     .jafar{
-        font-size: 16px;
+        font-size: 20px;
     }
     .fullstack{
-        font-size: 12px
+        font-size: 18px
     }
     .learnMore{
-        font-size: 12px;
+        font-size: 20px;
     }
     .mystatusP{
         width: 16rem;
     }
+    .heading-secondary{
+      font-size: 1.4rem;
+    }
+    .boxprojects{
+      width: 250;
+      height: 350;
+      margin: 15px;
+      width: fit-content;
+    }
+    
    
 }
 
@@ -2020,3 +2060,4 @@ h1::after{
 
 
 
+  

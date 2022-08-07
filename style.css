@@ -39,10 +39,9 @@ header{
  animation: fadeInup 2s forwards 4s;
 }
 
-span {
-    color: gold;
+.Gmail-text{
+  margin-left: 14px;
 }
-
 
 .image1{
     
@@ -326,9 +325,7 @@ opacity: 1;
 }
 
 
-.material-icons{
-    margin-right: 5px;
-}
+
 .fa-github{
     margin-right: 5px;
 }
@@ -361,8 +358,8 @@ opacity: 1;
 }
 .material-icons{
     position: absolute;
-    margin-top: 11px;
-    margin-left:-38px;
+    margin-top: 10px;
+    margin-left:-22px;
 }
 
 footer{
@@ -505,6 +502,8 @@ h1::after{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        margin-left: 3rem;
     }
     .page2firstContainer{
         flex-direction: column;
@@ -571,6 +570,12 @@ h1::after{
     }
 }
 
+@media (max-width:450px) {
+  .contactMeCards{
+    margin-left: 1.5rem;
+  }
+}
+
 @media (max-width:890px) {
     .image1{
       width: 10rem;
@@ -624,6 +629,9 @@ h1::after{
       height: 350;
       margin: 15px;
       width: fit-content;
+    }
+    .contactMeCards {
+      width: 19rem;
     }
     
    

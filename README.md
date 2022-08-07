@@ -10,7 +10,7 @@ I used HTML, CSS with minimum Bootstrap for this project, I emphasized more on T
 The Portfolio contains 2 pages, The first one includes introduction about me, my most recent projects, My previous projects, besides my Contact informations.
 The second page contains more information about me including my personal photo, my current position, discription for my current position, besides my interests, skills and previous experiance, You can also download my resume from the download button located underneath my experiance section.
 
-Thanks for interest and i hope you have a good navigation experiance.
+Thanks for interest,I hope you have a good navigation experiance.
 
 This is The Portfolio Wireframe link:
 

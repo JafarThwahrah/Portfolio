@@ -71,9 +71,10 @@ width: 200px;
 }
 
 .section-1 {
-   padding: 40px;
 	border-radius: 10px;
 	background-size: cover;
+  text-align: center;
+
   
 }
 .myprevious-h5{
@@ -524,10 +525,8 @@ align-items: center;
         flex-direction: column;
     
     }
-    .pLanguages{
-        margin-left: -20px;
-
-    }
+    .myCurrentStatus{
+margin-right: 5rem;    }
     
     .positionStarted{
         font-size:small;
@@ -642,6 +641,9 @@ font-size: 25px;
 }
 .heading-secondary{
   font-size: 1.4rem;
+}
+.section-1{
+  margin-left: 1rem;
 }
 }
 @media (max-width:410px) {
@@ -869,6 +871,7 @@ font-size: 25px;
 .experiancesContainer{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    border-radius: 15px;
     z-index: 5;
 }
 

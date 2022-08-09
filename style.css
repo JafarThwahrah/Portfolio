@@ -18,7 +18,9 @@ html {
 body{
 
     font-family: 'poppins', sans-serif;
-    background: #010615; 
+
+    background-color: #010615;
+    /* background: #001f25;  */
     animation: fadeIn 1s ease-in-out;
 
 }

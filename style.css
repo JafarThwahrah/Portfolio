@@ -4,20 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
-.fancy-animation-hero-container{
- display: flex;
- justify-content: center;
- align-items: center;
- height: 70vh;
- overflow: hidden;
- width: 700px;
 
-}
 
 .loader{
+  margin-top: 5rem;
   position: relative;
-  width: 300px;
-  height: 300px;
+	width: 20rem;
+	height: 20rem;
+	z-index: 1;
 }
 
 .loader span{
@@ -115,7 +109,9 @@ header{
  transform:translateY(2rem);
  animation: fadeInup 2s forwards 4s;
 }
-
+.phone-icon{
+  color: gold;
+}
 .Gmail-text{
   margin-left: 14px;
 }
@@ -175,9 +171,9 @@ width: 200px;
 }
 
 nav{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 5px #28b485 ;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.051), 0 1px 11px 2px #28b485;
     z-index: 20;
-    background-color: #28b485;
+    background-color: #2caa80;
 }
 
 

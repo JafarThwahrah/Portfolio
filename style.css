@@ -12,6 +12,8 @@
 	width: 20rem;
 	height: 20rem;
 	z-index: 1;
+ 
+
 }
 
 .loader span{
@@ -47,6 +49,7 @@
   animation-delay: calc(-0.25s * var(--i));
   transform-origin: 20px;
   transition: 2s;
+
 }
 .loader:hover span::before{
   box-shadow: 0 0 20px #28b485,
@@ -58,6 +61,7 @@
   200px -200px 20px #28b485,
   -200px 200px 0 #28b485,
   -200px 200px 20px #28b485;
+
 
 
 transform-origin: 250px;
@@ -655,13 +659,33 @@ margin-left: -20%;  }
     margin-left: 1.5rem;
   }
 }
-
-@media (max-width:890px) {
-    .image1{
-      width: 10rem;
-      height: 10rem;
+@media (max-width:1248px){
+.loader{
+  height: auto;
+  width: auto;
+}
+}
+@media (max-width:940px) {
+    .loader{
+      width: 15rem;
+      height: 15rem;
     }
 }
+
+@media (max-width:890px) {
+  .loader{
+    width: 13rem;
+    height: 15rem;
+  }
+}
+
+
+@media (max-width:750px) {
+  .loader{
+   display: none;
+  }
+}
+
 
 @media (max-width:680px) {
     .image1{

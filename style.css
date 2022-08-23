@@ -100,6 +100,8 @@ body{
 
 .jafar{
     text-align: left;
+    -webkit-box-reflect: below 0px linear-gradient(transparent ,#010615 );
+    line-height: 2rem;
 }
 
 header{
@@ -112,6 +114,7 @@ header{
  opacity: 0;
  transform:translateY(2rem);
  animation: fadeInup 2s forwards 4s;
+ margin-top: 4rem;
 }
 .phone-icon{
   color: gold;
